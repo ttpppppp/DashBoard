@@ -199,6 +199,9 @@ nav .profile .menu{
 nav .profile ul li {
     height: 3.5rem;
 }
+nav .profile ul li a:hover{
+    color: var(--color-primary);
+}
 nav .profile::after{
     content: "";
     position: absolute;
@@ -214,6 +217,7 @@ nav .profile:hover .menu{
 nav .profile ul li a{
     color: var(--color-dark);
     font-size: 1.2rem;
+    display: block;
 }
 nav .profile .profile-photo{
     display: block;
